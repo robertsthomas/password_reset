@@ -22,7 +22,7 @@ export default class ForgotPassword extends Component {
           </div>
         ) : (
           <div>
-            <p>Enter your email associated with your account.</p>
+            <p>Enter the email associated with your account.</p>
             <input type='email' name='' placeholder='Email' />
             <button onClick={() => {
               this.emailSent(() => history.push('/changepassword'))
