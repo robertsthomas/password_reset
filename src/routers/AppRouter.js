@@ -7,6 +7,9 @@ import ForgotPassword from '../components/Pages/Forgot/ForgotPassword';
 import ChangePassword from '../components/Pages/Forgot/ChangePassword';
 import Form from '../components/Form/Form';
 
+
+// Sorry, its a little messy :)
+
 const fakeAuth = {
   isAuthenticated: false,
   authenticate(cb) {
